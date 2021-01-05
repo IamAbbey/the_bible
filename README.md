@@ -1,6 +1,31 @@
 # the_bible
 
-A new Flutter project.
+A new Bible Application Flutter project
+
+#### Flutter App Screenshots
+
+<table>
+  <tr>
+     <td>List of Books (Old Testaments)</td>
+     <td>List of Books (New Testaments)</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot_1609819396.png" width=370 height=480></td>
+    <td><img src="screenshots/Screenshot_1609819403.png" width=370 height=480></td>
+  </tr>
+  <tr>
+     <td>Select Chapter Page</td>
+     <td>Verse List Page</td>
+  </tr> 
+  <tr>
+    <td><img src="screenshots/Screenshot_1609819564.png" width=370 height=480></td>
+    <td><img src="screenshots/Screenshot_1609819610.png" width=370 height=480></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><img src="screenshots/Screenshot_1609819618.png" width=370 height=480></td>
+  </tr>
+ </table>
 
 ## Getting Started
 
