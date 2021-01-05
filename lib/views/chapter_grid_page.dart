@@ -25,7 +25,7 @@ class _BookChapterGridViewState extends State<BookChapterGridView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Select a chapter'),
+        title: Text('${widget.book.longName} - Select a chapter'),
       ),
       body: BlocBuilder<BibleCubit, BibleState>(
         buildWhen: (previous, current) =>
@@ -34,7 +34,7 @@ class _BookChapterGridViewState extends State<BookChapterGridView> {
             current is ChapterFetchingSuccess,
         builder: (context, state) {
           if (state is ChapterFetchingLoading) {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           } else if (state is ChapterFetchingSuccess) {
             return GridView.builder(
               itemCount: state.uniqueChapterNumbers.length,
